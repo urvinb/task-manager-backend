@@ -1,3 +1,4 @@
+const port = process.env.PORT || 3000
 const express = require('express');
 const app = express();
 
@@ -384,6 +385,6 @@ let deleteTasksFromList = (_listId) => {
     })
 }
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("Server is listening on port 3000");
 })
