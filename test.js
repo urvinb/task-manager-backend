@@ -10,6 +10,6 @@ describe("Testing with chai", () => {
     });
       
     it("Are both the sentences matching", () => {
-      expect("This is working").to.equal('This is working');
+      expect("Tests are working").to.equal('Tests are working');
     });
  });
